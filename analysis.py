@@ -1,6 +1,8 @@
 import pandas
 import matplotlib.pyplot as plt
 
+plt.style.use('dark_background')
+
 colours = {
     'farmed': 'red',
     'lab': 'orange',
@@ -8,7 +10,7 @@ colours = {
     'companion': 'blue',
     'working': 'purple',
     'wild': 'green',
-    'none': 'black',
+    'none': 'white',
     'mixed': 'grey'
 }
 for name in ['talks', 'posters']:
@@ -27,7 +29,7 @@ for name in ['talks', 'posters']:
         counterclock= False,
         colors = [colours[v] for v in labels],
     )
-    plt.title('UFAW 2024\n' + name + ' by animal type\n total number of ' + name + ': ' + str(total_number))
+    plt.title(name + ' by animal type\n total number of ' + name + ': ' + str(total_number))
     plt.savefig('output/' + name + '.png', dpi = 500)
 
 
