@@ -34,3 +34,6 @@ I was interested in analysing what types of animals were represented at the UFAW
 ## results
 Here is how different types of animals were represented in the talks
 ![talks](output/talks.png)
+
+and in here is the same data for the posters
+![talks](output/posters.png)
