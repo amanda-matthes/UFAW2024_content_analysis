@@ -1,15 +1,14 @@
 # UFAW 2024 conference stats
-last updated: 2024-07-16 by Amanda Matthes
+last updated: 2024-07-21 by Amanda Matthes
 
-🚧 WORK IN PROGRESS 🚧
 
 ## goal
 I was interested in analysing what types of animals were represented at the UFAW animal welfare conference 2024 in Porto. This repo includes both the raw data and the code used for this analysis.
 
 ## repo structure
-- the `data` folder includes the data used here
-    - `ufaw_programme_book.pdf` is the official programme book
-    - `talks.csv` and `posters.csv` list all the talks and posters, respectively.
+- the `data` folder includes the data used
+    - `talks.csv` list all the talks
+    - `posters.csv` list all the posters
 - `analysis.py` includes all the code used to produce the figures
 - the `output` folder includes all the generated figures
 
