@@ -1,6 +1,18 @@
 # UFAW 2024 conference stats
 last updated: 2024-07-21 by Amanda Matthes
 
+## how to cite this
+
+```
+@misc{,
+    title     = {UFAW 2024 content analysis v1.0.0},
+    author    = {Matthes, Amanda},
+    year      = {2024},
+    publisher = {Zenodo},
+    doi       = {https://doi.org/10.5281/zenodo.12789280},
+    url       = {https://github.com/amanda-matthes/UFAW2024_content_analysis/releases/tag/v1.0.0}
+}
+```
 
 ## goal
 I was interested in analysing what types of animals were represented at the UFAW animal welfare conference 2024 in Porto. This repo includes both the raw data and the code used for this analysis.
